@@ -124,7 +124,7 @@ with form:
         weekly_extra = st.slider(
             "Weekly Extracurriculars",
             min_value=0.0,
-            max_value=40.0,
+            max_value=100.0,
             value=15.0,
             step=0.25,
         )
