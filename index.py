@@ -63,7 +63,7 @@ with form:
         st.info(f"{sleep_icon} You took the tale of Rip Van Winkle way too literal.")
     elif sleep >= 12:
         st.warning(
-            f'{sleep_icon} "As a door turns back and forth on its hinges, so the lazy person turns over in bed" (Prov. 27:16).'
+            f'{sleep_icon} "As a door turns back and forth on its hinges, so the lazy person turns over in bed" (Prov. 26:14).'
         )
 
     if work <= 0:
@@ -345,9 +345,9 @@ However, the analysis here is general enough that it could apply to anyone, reli
 In a future version, I hope to refine the ability to input specific extracurriculars to see how much phones, kids' practices, etc. break out better. _When I have the time_, I'll do so. Terrible pun, I know.
 
 If you like this app and would like to buy me a coffee, don't. Use that money and bless someone else instead. 🙂
-
 """
     )
+    st.space("small")
     st.code(
         '"For everything there is a season, and a time for every matter under heaven."\n- Ecclesiastes 3:1',
         height="stretch",
